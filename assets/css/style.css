@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root{
+    --blue-color  : #2156de;
+    --grey-color  : #6c6c6c;
+
+    --hover-blue-color : #1343bd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Laptops */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+
+}
