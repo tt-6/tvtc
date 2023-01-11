@@ -42,7 +42,7 @@ $random = $random->fetch_all(MYSQLI_ASSOC)[0];
         <!-- Paragraph Text -->
         <p class="paragraph-header">
             مرحباً,
-            <?= $random['frist_name'] . " " . $random['last_name'] ?>
+            <?= htmlspecialchars($random['frist_name']) . " " . htmlspecialchars($random['last_name']) ?>
             نهئنك بالفوز بالمسابقة
         </p>
 
